@@ -1,0 +1,567 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-04T12:00:00Z",
+  "description": "16个MBTI储能专家完整数据配置",
+  "agents": [
+    {
+      "id": "INTJ",
+      "name": "INTJ-架构师",
+      "mbti_type": "INTJ",
+      "role": "architect",
+      "color": "#3b82f6",
+      "avatar": "🏗️",
+      "field": "材料研发",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 9.5,
+        "system_architecture": 9.2,
+        "engineering_implementation": 9.1,
+        "economic_analysis": 8.5,
+        "system_evaluation": 9.0,
+        "process_validation": 8.8
+      },
+      "historical_performance": {
+        "materials_rd": 92.5,
+        "stack_engineering": 88.0,
+        "system_modeling": 94.2,
+        "safety_analysis": 89.8,
+        "system_integration": 90.5
+      },
+      "optimal_scenarios": [
+        "系统性创新设计",
+        "长期战略规划",
+        "理论突破"
+      ],
+      "weak_scenarios": [
+        "快速响应需求",
+        "人际协调管理"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "INTP",
+      "name": "INTP-逻辑学家",
+      "mbti_type": "INTP",
+      "role": "analyst",
+      "color": "#6b7280",
+      "avatar": "🔬",
+      "field": "系统建模",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 9.8,
+        "system_architecture": 8.5,
+        "engineering_implementation": 8.0,
+        "economic_analysis": 8.8,
+        "system_evaluation": 8.9,
+        "process_validation": 8.6
+      },
+      "historical_performance": {
+        "materials_rd": 88.5,
+        "stack_engineering": 85.0,
+        "system_modeling": 96.0,
+        "safety_analysis": 87.2,
+        "system_integration": 89.5
+      },
+      "optimal_scenarios": [
+        "极限机理突破",
+        "数学建模创新",
+        "概念性分析"
+      ],
+      "weak_scenarios": [
+        "高压力紧急决策",
+        "经验类比推理"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ENTJ",
+      "name": "ENTJ-项目经理",
+      "mbti_type": "ENTJ",
+      "role": "manager",
+      "color": "#ef4444",
+      "avatar": "📊",
+      "field": "系统集成",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 8.5,
+        "system_architecture": 9.0,
+        "engineering_implementation": 9.5,
+        "economic_analysis": 9.2,
+        "system_evaluation": 8.8,
+        "process_validation": 9.0
+      },
+      "historical_performance": {
+        "materials_rd": 85.2,
+        "stack_engineering": 91.0,
+        "system_modeling": 88.5,
+        "safety_analysis": 87.3,
+        "system_integration": 92.0
+      },
+      "optimal_scenarios": [
+        "项目整体规划",
+        "资源统筹协调",
+        "关键决策制定"
+      ],
+      "weak_scenarios": [
+        "细节技术执行",
+        "情感氛围把控"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ENTP",
+      "name": "ENTP-发明家",
+      "mbti_type": "ENTP",
+      "role": "innovator",
+      "color": "#f59e0b",
+      "avatar": "💡",
+      "field": "材料研发",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 9.7,
+        "system_architecture": 8.8,
+        "engineering_implementation": 8.5,
+        "economic_analysis": 9.0,
+        "system_evaluation": 8.7,
+        "process_validation": 8.4
+      },
+      "historical_performance": {
+        "materials_rd": 93.8,
+        "stack_engineering": 86.5,
+        "system_modeling": 91.2,
+        "safety_analysis": 88.0,
+        "system_integration": 87.8
+      },
+      "optimal_scenarios": [
+        "创新方案设计",
+        "多角度问题分析",
+        "技术路线突破"
+      ],
+      "weak_scenarios": [
+        "细节落实执行",
+        "长期维护管理"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "INFJ",
+      "name": "INFJ-战略家",
+      "mbti_type": "INFJ",
+      "role": "strategist",
+      "color": "#10b981",
+      "avatar": "🎯",
+      "field": "材料研发",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 9.2,
+        "system_architecture": 9.0,
+        "engineering_implementation": 8.5,
+        "economic_analysis": 8.7,
+        "system_evaluation": 9.3,
+        "process_validation": 9.1
+      },
+      "historical_performance": {
+        "materials_rd": 91.0,
+        "stack_engineering": 87.5,
+        "system_modeling": 93.5,
+        "safety_analysis": 90.8,
+        "system_integration": 89.0
+      },
+      "optimal_scenarios": [
+        "前瞻性技术布局",
+        "复杂问题深度分析",
+        "创新与实用平衡"
+      ],
+      "weak_scenarios": [
+        "快速技术调整",
+        "压力下的即时决策"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "INFP",
+      "name": "INFP-调解者",
+      "mbti_type": "INFP",
+      "role": "mediator",
+      "color": "#8b5cf6",
+      "avatar": "🌱",
+      "field": "安全分析",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 9.0,
+        "system_architecture": 8.2,
+        "engineering_implementation": 8.3,
+        "economic_analysis": 8.5,
+        "system_evaluation": 9.1,
+        "process_validation": 8.9
+      },
+      "historical_performance": {
+        "materials_rd": 89.0,
+        "stack_engineering": 85.5,
+        "system_modeling": 90.2,
+        "safety_analysis": 92.5,
+        "system_integration": 88.0
+      },
+      "optimal_scenarios": [
+        "安全性深度评估",
+        "创新风险预判",
+        "人文因素考虑"
+      ],
+      "weak_scenarios": [
+        "严格标准执行",
+        "技术争议快速裁决"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ENFJ",
+      "name": "ENFJ-教育家",
+      "mbti_type": "ENFJ",
+      "role": "educator",
+      "color": "#06b6d4",
+      "avatar": "👥",
+      "field": "系统集成",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 8.3,
+        "system_architecture": 8.8,
+        "engineering_implementation": 9.2,
+        "economic_analysis": 9.0,
+        "system_evaluation": 8.5,
+        "process_validation": 9.3
+      },
+      "historical_performance": {
+        "materials_rd": 84.0,
+        "stack_engineering": 90.5,
+        "system_modeling": 87.0,
+        "safety_analysis": 88.5,
+        "system_integration": 91.8
+      },
+      "optimal_scenarios": [
+        "跨团队协作协调",
+        "知识体系整合",
+        "人才培养规划"
+      ],
+      "weak_scenarios": [
+        "纯技术深度钻研",
+        "细节质量把控"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ENFP",
+      "name": "ENFP-竞选者",
+      "mbti_type": "ENFP",
+      "role": "campaigner",
+      "color": "#ec4899",
+      "avatar": "🚀",
+      "field": "电堆工程",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 9.4,
+        "system_architecture": 8.6,
+        "engineering_implementation": 8.8,
+        "economic_analysis": 9.1,
+        "system_evaluation": 8.4,
+        "process_validation": 8.7
+      },
+      "historical_performance": {
+        "materials_rd": 90.5,
+        "stack_engineering": 92.3,
+        "system_modeling": 88.0,
+        "safety_analysis": 86.5,
+        "system_integration": 89.8
+      },
+      "optimal_scenarios": [
+        "创新思路开拓",
+        "多元化方案探索",
+        "技术前沿跟踪"
+      ],
+      "weak_scenarios": [
+        "细节流程管控",
+        "长期稳定维护"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ISTJ",
+      "name": "ISTJ-物流师",
+      "mbti_type": "ISTJ",
+      "role": "logistician",
+      "color": "#059669",
+      "avatar": "🔍",
+      "field": "安全分析",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 7.5,
+        "system_architecture": 8.2,
+        "engineering_implementation": 9.5,
+        "economic_analysis": 8.8,
+        "system_evaluation": 9.2,
+        "process_validation": 9.7
+      },
+      "historical_performance": {
+        "materials_rd": 82.0,
+        "stack_engineering": 88.5,
+        "system_modeling": 85.0,
+        "safety_analysis": 95.0,
+        "system_integration": 86.5
+      },
+      "optimal_scenarios": [
+        "安全标准严格执行",
+        "质量管理体系",
+        "风险管控体系"
+      ],
+      "weak_scenarios": [
+        "创新方案快速适应",
+        "复杂决策动态调整"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ISTP",
+      "name": "ISTP-工匠",
+      "mbti_type": "ISTP",
+      "role": "craftsman",
+      "color": "#d97706",
+      "avatar": "⚙️",
+      "field": "电堆工程",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 8.2,
+        "system_architecture": 8.5,
+        "engineering_implementation": 9.8,
+        "economic_analysis": 8.6,
+        "system_evaluation": 8.9,
+        "process_validation": 9.3
+      },
+      "historical_performance": {
+        "materials_rd": 84.5,
+        "stack_engineering": 95.5,
+        "system_modeling": 87.0,
+        "safety_analysis": 90.2,
+        "system_integration": 88.5
+      },
+      "optimal_scenarios": [
+        "工程实施优化",
+        "工艺改进创新",
+        "问题快速诊断"
+      ],
+      "weak_scenarios": [
+        "理论框架构建",
+        "长期战略规划"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ESTJ",
+      "name": "ESTJ-总经理",
+      "mbti_type": "ESTJ",
+      "role": "executive",
+      "color": "#7c3aed",
+      "avatar": "📋",
+      "field": "系统集成",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 7.8,
+        "system_architecture": 8.5,
+        "engineering_implementation": 9.2,
+        "economic_analysis": 9.5,
+        "system_evaluation": 9.0,
+        "process_validation": 9.8
+      },
+      "historical_performance": {
+        "materials_rd": 80.5,
+        "stack_engineering": 89.0,
+        "system_modeling": 86.5,
+        "safety_analysis": 91.5,
+        "system_integration": 93.8
+      },
+      "optimal_scenarios": [
+        "系统化项目管理",
+        "流程优化执行",
+        "成本效益控制"
+      ],
+      "weak_scenarios": [
+        "突发创新需求",
+        "非结构化问题处理"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ESTP",
+      "name": "ESTP-企业家",
+      "mbti_type": "ESTP",
+      "role": "entrepreneur",
+      "color": "#f97316",
+      "avatar": "🎲",
+      "field": "电堆工程",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 8.0,
+        "system_architecture": 8.3,
+        "engineering_implementation": 9.6,
+        "economic_analysis": 9.2,
+        "system_evaluation": 8.7,
+        "process_validation": 9.0
+      },
+      "historical_performance": {
+        "materials_rd": 83.0,
+        "stack_engineering": 94.2,
+        "system_modeling": 85.5,
+        "safety_analysis": 89.0,
+        "system_integration": 90.8
+      },
+      "optimal_scenarios": [
+        "工程问题快速解决",
+        "商业化应用推进",
+        "技术转化实施"
+      ],
+      "weak_scenarios": [
+        "理论深度研究",
+        "长期系统规划"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ISFJ",
+      "name": "ISFJ-守护者",
+      "mbti_type": "ISFJ",
+      "role": "defender",
+      "color": "#db2777",
+      "avatar": "🛡️",
+      "field": "安全分析",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 7.2,
+        "system_architecture": 8.0,
+        "engineering_implementation": 9.0,
+        "economic_analysis": 8.8,
+        "system_evaluation": 9.5,
+        "process_validation": 9.8
+      },
+      "historical_performance": {
+        "materials_rd": 81.0,
+        "stack_engineering": 87.5,
+        "system_modeling": 84.0,
+        "safety_analysis": 94.5,
+        "system_integration": 89.2
+      },
+      "optimal_scenarios": [
+        "安全体系维护",
+        "质量稳定保障",
+        "风险预防措施"
+      ],
+      "weak_scenarios": [
+        "激进创新方案",
+        "复杂决策快速调整"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ISFP",
+      "name": "ISFP-艺术家",
+      "mbti_type": "ISFP",
+      "role": "artist",
+      "color": "#14b8a6",
+      "avatar": "🎨",
+      "field": "电堆工程",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 8.5,
+        "system_architecture": 8.2,
+        "engineering_implementation": 9.3,
+        "economic_analysis": 8.6,
+        "system_evaluation": 9.0,
+        "process_validation": 9.1
+      },
+      "historical_performance": {
+        "materials_rd": 85.8,
+        "stack_engineering": 91.8,
+        "system_modeling": 86.5,
+        "safety_analysis": 90.5,
+        "system_integration": 88.0
+      },
+      "optimal_scenarios": [
+        "工艺精细优化",
+        "用户体验考虑",
+        "产品化实现"
+      ],
+      "weak_scenarios": [
+        "理论体系构建",
+        "大规模战略规划"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ESFJ",
+      "name": "ESFJ-执政官",
+      "mbti_type": "ESFJ",
+      "role": "consul",
+      "color": "#0ea5e9",
+      "avatar": "👨‍👩‍👧‍👦",
+      "field": "系统集成",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 8.0,
+        "system_architecture": 8.5,
+        "engineering_implementation": 9.2,
+        "economic_analysis": 9.3,
+        "system_evaluation": 8.8,
+        "process_validation": 9.6
+      },
+      "historical_performance": {
+        "materials_rd": 83.5,
+        "stack_engineering": 90.0,
+        "system_modeling": 87.5,
+        "safety_analysis": 89.8,
+        "system_integration": 92.5
+      },
+      "optimal_scenarios": [
+        "团队协作管理",
+        "知识传递培训",
+        "项目执行协调"
+      ],
+      "weak_scenarios": [
+        "技术深度钻研",
+        "创新风险承担"
+      ],
+      "model_preference": "deepseek-chat"
+    },
+    {
+      "id": "ESFP",
+      "name": "ESFP-表演者",
+      "mbti_type": "ESFP",
+      "role": "entertainer",
+      "color": "#f43f5e",
+      "avatar": "🎭",
+      "field": "电堆工程",
+      "status": "available",
+      "capabilities": {
+        "theoretical_innovation": 8.8,
+        "system_architecture": 8.4,
+        "engineering_implementation": 9.4,
+        "economic_analysis": 9.0,
+        "system_evaluation": 8.6,
+        "process_validation": 9.2
+      },
+      "historical_performance": {
+        "materials_rd": 87.5,
+        "stack_engineering": 93.0,
+        "system_modeling": 85.8,
+        "safety_analysis": 88.2,
+        "system_integration": 90.5
+      },
+      "optimal_scenarios": [
+        "技术展示推广",
+        "用户体验优化",
+        "快速原型开发"
+      ],
+      "weak_scenarios": [
+        "长期规划执行",
+        "理论深度研究"
+      ],
+      "model_preference": "deepseek-chat"
+    }
+  ]
+}
