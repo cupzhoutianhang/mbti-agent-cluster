@@ -2,6 +2,12 @@
 
 ChargeBD 储能研发交互系统是 ChargeBD 框架的交互式工作流展示平台。
 
+## Demo
+
+[![ChargeBD demo preview](./public/demo-preview.gif)](./%E5%B1%95%E7%A4%BA.mp4)
+
+[Open the full demo video](./%E5%B1%95%E7%A4%BA.mp4)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
